@@ -1,0 +1,134 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/backgroundImage.png",
+                "type": "image",
+                "key": "backgroundImage"
+            },
+            {
+                "url": "assets/images/backgroundImg.png",
+                "type": "image",
+                "key": "backgroundImg"
+            },
+            {
+                "url": "assets/images/backgroundImg.png",
+                "type": "image",
+                "key": "backgroundImg_1"
+            },
+            {
+                "url": "assets/images/circle.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/images/brick.png",
+                "type": "image",
+                "key": "brick"
+            },
+            {
+                "url": "assets/images/brick1.png",
+                "type": "image",
+                "key": "brick1"
+            },
+            {
+                "url": "assets/images/brick2.png",
+                "type": "image",
+                "key": "brick2"
+            },
+            {
+                "url": "assets/images/brick3.png",
+                "type": "image",
+                "key": "brick3"
+            },
+            {
+                "url": "assets/images/fruit-ninja.png",
+                "type": "image",
+                "key": "fruit-ninja"
+            },
+            {
+                "url": "assets/images/gameBackgroundImage.png",
+                "type": "image",
+                "key": "gameBackgroundImage"
+            },
+            {
+                "url": "assets/images/gameOver.png",
+                "type": "image",
+                "key": "gameOver"
+            },
+            {
+                "url": "assets/images/nextBtn.png",
+                "type": "image",
+                "key": "nextBtn"
+            },
+            {
+                "url": "assets/images/nextButton.png",
+                "type": "image",
+                "key": "nextButton"
+            },
+            {
+                "url": "assets/images/paddle.png",
+                "type": "image",
+                "key": "paddle"
+            },
+            {
+                "url": "assets/images/playAgain.png",
+                "type": "image",
+                "key": "playAgain"
+            },
+            {
+                "url": "assets/images/playButton2.png",
+                "type": "image",
+                "key": "playButton2"
+            },
+            {
+                "url": "assets/images/playerButton.png",
+                "type": "image",
+                "key": "playerButton"
+            },
+            {
+                "url": "assets/images/popup.png",
+                "type": "image",
+                "key": "popup"
+            },
+            {
+                "url": "assets/images/smoke.png",
+                "type": "image",
+                "key": "smoke"
+            },
+            {
+                "url": "src/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": [
+                    "assets/audio/sounds_brick_hit.mp3"
+                ],
+                "type": "audio",
+                "key": "sounds_brick_hit"
+            },
+            {
+                "url": [
+                    "assets/audio/sounds_paddle_hit.mp3"
+                ],
+                "type": "audio",
+                "key": "sounds_paddle_hit"
+            },
+            {
+                "url": [
+                    "assets/audio/sounds_win.mp3"
+                ],
+                "type": "audio",
+                "key": "sounds_win"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

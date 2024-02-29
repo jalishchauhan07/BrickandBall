@@ -1,0 +1,126 @@
+{
+    "id": "4866a109-2a30-49bb-89e4-58f32d0c2c3a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level2Scene",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "cb478edb-2b5b-461d-b84a-cb9175b4f676",
+            "label": "gameContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0d09afae-cebd-42fd-9ae0-277b97e3cf2a",
+                    "label": "fruit_ninja",
+                    "components": [],
+                    "texture": {
+                        "key": "fruit-ninja"
+                    },
+                    "x": 540,
+                    "y": 960,
+                    "scaleX": 4,
+                    "scaleY": 12
+                },
+                {
+                    "type": "Text",
+                    "id": "a3e72e32-2b5a-4825-9ae3-a3d230bc876c",
+                    "label": "score_",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 358,
+                    "y": 230,
+                    "text": "Score :0",
+                    "fontSize": "100px"
+                },
+                {
+                    "type": "Container",
+                    "id": "fa5ea1b6-986d-4fa6-ba46-add4ed356aba",
+                    "label": "container_gameOver",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "05829d77-20e1-4064-b3e7-8a2b9344e8b5",
+                            "label": "popup",
+                            "components": [],
+                            "texture": {
+                                "key": "popup"
+                            },
+                            "x": 540,
+                            "y": 960,
+                            "scaleX": 3.25,
+                            "scaleY": 4.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "479080d1-85f7-49a6-ac54-7ef95f8122ea",
+                            "label": "gameOver",
+                            "components": [],
+                            "texture": {
+                                "key": "gameOver"
+                            },
+                            "x": 540,
+                            "y": 960,
+                            "scaleX": 2,
+                            "scaleY": 2
+                        },
+                        {
+                            "type": "Text",
+                            "id": "be987023-f296-4514-82b4-35b49945d23a",
+                            "label": "score",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 307,
+                            "y": 1408,
+                            "text": "Highscore is ",
+                            "fontFamily": "Impact",
+                            "fontSize": "60px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6a8166a1-4cbb-4f5d-9d54-f3dd7557ea2a",
+                            "label": "playAgain",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "playAgain"
+                            },
+                            "x": 552,
+                            "y": 1708,
+                            "scaleX": 1.5,
+                            "scaleY": 1.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "776b7e17-4785-4b17-97bb-6a5851bab96c",
+                    "label": "text_1",
+                    "components": [],
+                    "x": 469,
+                    "y": 144,
+                    "text": "Level",
+                    "fontSize": "50px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

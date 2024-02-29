@@ -1,0 +1,88 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3dc09a49-6f06-4afd-9b46-55a89632e4ed",
+            "label": "backgroundContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "63c3e836-c79a-47f3-9396-15b4b84fa54b",
+                    "label": "backgroundImage",
+                    "components": [],
+                    "texture": {
+                        "key": "backgroundImage"
+                    },
+                    "x": 540,
+                    "y": 960,
+                    "scaleX": 0.8,
+                    "scaleY": 2.5
+                },
+                {
+                    "type": "Image",
+                    "id": "0b7fe511-cb5c-4659-86fb-da0431b91927",
+                    "label": "playButton2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "playButton2"
+                    },
+                    "x": 520,
+                    "y": 1519,
+                    "scaleX": 4,
+                    "scaleY": 4
+                },
+                {
+                    "type": "Text",
+                    "id": "8aaa1132-dd72-4ef3-95fc-e0bd1d956b23",
+                    "label": "gameName2",
+                    "components": [],
+                    "x": 395,
+                    "y": 905,
+                    "tintTopRight": "#722b2b",
+                    "tintBottomLeft": "#e0a5a5",
+                    "tintBottomRight": "#c47575",
+                    "tintFill": true,
+                    "text": "Bricks\n",
+                    "fontSize": "106px",
+                    "color": "#f6bc30ff",
+                    "stroke": "#b651e7ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "0b9c560d-828d-4dd0-8243-dbe73e37efe2",
+                    "label": "gameName1",
+                    "components": [],
+                    "x": 245,
+                    "y": 721,
+                    "tintTopLeft": "#651111",
+                    "tintTopRight": "#475ce5",
+                    "text": "Break the",
+                    "fontSize": "106px",
+                    "color": "#f7ab4eff",
+                    "stroke": "#4cc0efff",
+                    "strokeThickness": 5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
